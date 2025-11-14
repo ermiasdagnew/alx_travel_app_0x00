@@ -1,12 +1,14 @@
 # ALX Travel App 0x00
 
-### Features
-- Listings (title, description, price, location)
-- Bookings (FK → Listing)
-- Reviews (FK → Listing)
-- DRF serializers
-- Seeder command using django-seed
+This project demonstrates Django **database modeling**, **serialization**, and **data seeding** for the Listings module.
 
-### Commands
+## Features
+- **Listings** (title, description, price per night, location, availability)
+- **Bookings** (ForeignKey → Listing)
+- **Reviews** (ForeignKey → Listing)
+- **Django REST Framework serializers** for Listing and Booking
+- **Seeder command** to populate the database with sample data
 
-Run migrations:
+## Setup and Commands
+
+### 1. Run migrations
