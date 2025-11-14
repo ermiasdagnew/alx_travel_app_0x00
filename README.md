@@ -1,6 +1,6 @@
 # ALX Travel App 0x00
 
-This project demonstrates Django **database modeling**, **serialization**, and **data seeding** for the Listings module.
+This project demonstrates Django **database modeling**, **serialization**, and **data seeding** for a travel listings application.
 
 ## Features
 - **Listings** (title, description, price per night, location, availability)
@@ -11,4 +11,8 @@ This project demonstrates Django **database modeling**, **serialization**, and *
 
 ## Setup and Commands
 
-### 1. Run migrations
+### 1. Install dependencies
+Make sure you have Django and Django REST Framework installed. Example using pip:
+
+```bash
+pip install django djangorestframework
