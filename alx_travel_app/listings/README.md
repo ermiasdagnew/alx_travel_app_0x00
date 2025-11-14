@@ -11,6 +11,8 @@ This project demonstrates Django **database modeling**, **serialization**, and *
 
 ## Setup and Commands
 
-### 1. Run migrations
+### 1. Install dependencies
+Make sure you have Django and Django REST Framework installed. Example using pip:
+
 ```bash
-python manage.py migrate
+pip install django djangorestframework
