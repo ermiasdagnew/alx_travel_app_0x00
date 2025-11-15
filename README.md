@@ -8,14 +8,4 @@ This milestone focuses on:
 - Creating serializers for API data representation
 - Implementing a management command to seed the database
 
----
-
-## Features
-- **Listings**: Properties available for booking
-- **Bookings**: Users can book listings for a date range
-- **Reviews**: Users can leave reviews for listings
-- **Seeder**: Populate the database with sample listings for testing
-
----
-
 ## Project Structure
